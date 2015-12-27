@@ -1,0 +1,20 @@
+{
+  "name": "es6-module-loading-with-webpack",
+  "version": "1.0.0",
+  "description": "es6 module webpack",
+  "scripts": {},
+  "keywords": [
+    "module",
+    "webpack"
+  ],
+  "author": "ann",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^5.0.0",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+    "start":"webpack-dev-server --hot --inline --port 8087 --host 127.0.0.1"
+  }
+}
